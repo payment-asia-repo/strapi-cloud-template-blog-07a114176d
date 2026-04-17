@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fga_trust_newses",
+  "info": {
+    "singularName": "fga-trust-news",
+    "pluralName": "fga-trust-newses",
+    "displayName": "FGA Trust News"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "author_id": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "raw_html": {
+      "type": "text"
+    },
+    "thumbnail": {
+      "type": "text"
+    },
+    "date": {
+      "type": "datetime"
+    }
+  }
+}
