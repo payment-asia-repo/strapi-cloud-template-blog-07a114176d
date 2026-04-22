@@ -459,7 +459,7 @@ export interface ApiFgaTrustNewsFgaTrustNews
           localized: true;
         };
       }>;
-    content: Schema.Attribute.RichText &
+    content: Schema.Attribute.Blocks &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
