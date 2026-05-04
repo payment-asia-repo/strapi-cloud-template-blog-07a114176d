@@ -86,6 +86,14 @@
           "localized": true
         }
       }
+    },
+    "youtube_embed": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
